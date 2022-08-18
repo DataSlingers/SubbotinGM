@@ -10,4 +10,6 @@ The package can be installed by running the following commands in R:
 ```
 
 # Usage
-The function `subbotin_GM` serves as the main tool for graph estimation. 
+This package comes with two functions:
+ - `subbotin_GM` serves as the main tool for graph estimation. 
+ - `extreme_lasso` performs the individual neighborhood selection regressions.
