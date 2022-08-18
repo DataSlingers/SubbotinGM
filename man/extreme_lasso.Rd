@@ -2,8 +2,7 @@
 % Please edit documentation in R/extreme_lasso.R
 \name{extreme_lasso}
 \alias{extreme_lasso}
-\title{Estimates for the Extreme Lasso problem; used for neighborhood selection.
-Uses proximal gradient descent with backtracking, with oracle tuning.}
+\title{Estimation algorithm for the Extreme Lasso problem.}
 \usage{
 extreme_lasso(
   resp,
@@ -48,6 +47,6 @@ A list with the following elements:
 }
 }
 \description{
-Estimates for the Extreme Lasso problem; used for neighborhood selection.
-Uses proximal gradient descent with backtracking, with oracle tuning.
+Provides parameter estimates the Extreme Lasso problem, which is used for neighborhood selection.
+Implements a proximal gradient descent with backtracking.
 }
