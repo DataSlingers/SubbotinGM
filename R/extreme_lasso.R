@@ -1,7 +1,6 @@
-#' Estimation algorithm for the Extreme Lasso problem.
+#' Estimation algorithm of the Extreme Lasso problem.
 #' 
-#' @description Provides parameter estimates the Extreme Lasso problem, which is used for neighborhood selection.
-#' Implements a proximal gradient descent with backtracking.
+#' @description Estimates for the Extreme Lasso problem; used for neighborhood selection. Uses proximal gradient descent with backtracking.
 #' @param resp n by 1 response matrix.
 #' @param pred_mat n by p predictor matrix.
 #' @param sub_power even integer, power of Subbotin distribution.
