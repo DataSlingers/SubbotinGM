@@ -5,6 +5,7 @@ This package implements the estimation algorithm for the Subbotin graphical mode
 # Installation
 The package can be installed by running the following commands in R:
 ```
+  # install.packages(devtools)
   library(devtools)
   devtools:install_github("DataSlingers/SubbotinGM")
 ```
