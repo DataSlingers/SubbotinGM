@@ -7,7 +7,7 @@ The package can be installed by running the following commands in R:
 ```
   # install.packages(devtools)
   library(devtools)
-  devtools:install_github("DataSlingers/SubbotinGM")
+  devtools::install_github("DataSlingers/SubbotinGM")
 ```
 
 # Usage
